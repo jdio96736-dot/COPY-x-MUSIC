@@ -1,0 +1,48 @@
+RAILWAY / REPLIT PASTE ORDER
+
+1. Replace your current bot code with ALL files in this folder.
+2. Keep the folder structure exactly as shown:
+   main.py
+   config.py
+   clients.py
+   state.py
+   database.py
+   youtube.py
+   player.py
+   handlers.py
+   ui.py
+   requirements.txt
+   .replit
+   replit.nix
+
+3. Create ONLY these four Secrets:
+   TELEGRAM_BOT_TOKEN
+   API_ID
+   API_HASH
+   SESSION_SECRET
+
+4. Do NOT paste any real secret into source code.
+
+5. Replit installs the Python dependencies from requirements.txt.
+6. FFmpeg and Deno are supplied by replit.nix.
+7. Run command: python main.py
+8. Start a Telegram voice chat in the group.
+9. Add the bot to the group with the permissions needed to manage the voice chat.
+10. The assistant account represented by SESSION_SECRET must be able to join the group and voice chat.
+11. Test:
+      /start
+      /help
+      /play song name
+      /queue
+      /nowplaying
+      /pause
+      /resume
+      /skip
+      /stop
+
+IMPORTANT:
+- This package is a clean replacement, not a patch to the old broken files.
+- Do not keep duplicate main.py/config.py/clients.py files with names such as
+  main (1).py, config (2).py, clients (1).py in the runtime folder.
+- The live Telegram voice-chat path cannot be tested inside this offline build;
+  after deployment, use the Railway/Replit logs for any environment-specific error.
