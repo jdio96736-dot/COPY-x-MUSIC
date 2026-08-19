@@ -1,10 +1,5 @@
-kurigram
-py-tgcalls
-aiohttp
-tgcrypto
-isodate
-pillow
-psutil
-python-dotenv
-aiofiles
-yt-dlp
+Pyrogram==2.0.106
+TgCrypto>=1.2.5
+py-tgcalls==2.3.3
+yt-dlp[default]>=2026.7.1
+aiohttp>=3.12.0
